@@ -1,0 +1,79 @@
+.images {
+    width: calc(100% / 4);
+    display: inline-block;
+    float: left;
+}
+
+.navbar-header{
+    width: 100%;
+}
+
+ul li:last-child img {
+  position: absolute;
+  bottom: 10px;
+}
+
+.about {
+    justify-content: flex-end;
+    flex-direction: row;
+    display: flex;
+}
+
+body{
+    background-color: #aaffee !important; 
+}
+
+img {
+    max-width: 100%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    display: block;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.active:hover {
+    background-color: #EA0 !important;
+}
+
+li a {
+    display: block !important;
+    color: white;
+    text-align: center;
+    text-decoration: none !important;
+    padding: .5rem 1rem !important;
+    height: 100%;
+    margin-right: 0px !important; 
+}
+
+.navbar-brand:hover {
+	background-color: #E00;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #A01;
+    color: #FFF;
+    text-decoration: none !important;
+}
+
+.addPicture {
+	color: #FFF !important;
+}
+
+.addPicture:hover {
+	background-color: #333;
+}
